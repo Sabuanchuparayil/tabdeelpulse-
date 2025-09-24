@@ -1,0 +1,7 @@
+{
+  "name": "Tabdeel Pulse+",
+  "description": "A comprehensive, web-based business management application designed to provide a centralised hub for Tabdeel's core operations. It offers real-time insights and streamlined workflows for finance, service job management, internal communication, and administrative tasks.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

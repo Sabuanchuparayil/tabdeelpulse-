@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabdeel Pulse+</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Amaranth', 'serif'],
+                    },
+                    colors: {
+                        primary: {
+                            light: '#2563eb',
+                            dark: '#3b82f6'
+                        },
+                        secondary: {
+                            light: '#10b981',
+                            dark: '#34d399'
+                        },
+                        'light-bg': '#f8fafc',
+                        'light-text': '#1e3a8a',
+                        'dark-bg': '#0f172a',
+                        'dark-bg-card': '#1e293b',
+                        'dark-text': '#e2e8f0',
+                    }
+                }
+            }
+        }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.1",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js",
+    "typescript": "https://aistudiocdn.com/typescript@^5.9.2"
+  }
+}
+</script>
+</head>
+<body class="bg-light-bg dark:bg-dark-bg">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
